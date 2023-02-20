@@ -1,0 +1,1007 @@
+
+
+
+/* ----------------------------------------------------------------------------------------
+         ______________________________EXTRA EXTRA DEVICE______________________________
+------------------------------------------------------------------------------------------- */
+
+@media (min-width: 1400px) {}
+
+
+
+
+/* ----------------------------------------------------------------------------------------
+         ______________________________EXTRA LARGE DEVICE______________________________
+------------------------------------------------------------------------------------------- */
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+
+
+ 
+/* ----------------------------------------------------------------------------------------
+         ______________________________LARGE DEVICE______________________________
+------------------------------------------------------------------------------------------- */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* Menu part start */
+    .navbar-brand {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-right: 0;
+        font-size: 0;
+        
+    }
+    
+    .main_menu .navbar-brand {
+        width: 250px;
+        height: 65px;
+        transform: skew(-32deg);
+        -moz-transform: skew(-32deg);
+    
+         line-height: 65px;
+    }
+    /* Menu part end */
+    
+    
+    /* Banner part start */
+    .banner_text h2::before {
+        
+        right: -47px;
+        
+    }
+    
+    .banner_text h2::after {
+    
+        left: -58px;
+    
+    }
+    
+    .banner_text h1::before {
+        width: 88px;
+        left: -61px;
+        
+    }
+    
+    .banner_text h1::after {
+        
+        left: -61px;
+        
+    }
+    
+    .banner_text p::before {
+        
+        width: 45px;
+        right: -45px;
+        bottom: -25px;
+    
+    }
+    
+    .banner_text p::after {
+        
+        height: 202px;
+        bottom: -25px;
+        right: -47px;
+    
+    }
+    /* Banner part end */
+    
+    
+    /* About part start */
+    .px-lg-0 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    /* About part end */
+    
+    
+    
+    /* Price part start */
+    #price_part {
+        padding: 40px 0;
+    }
+    /* Price part end */
+    
+    
+    
+    /* Class part start */
+    .class_text ul li {
+        width: 19.57%;
+    }
+    /* Class part end */
+    
+    
+    
+    /* Footer part start */
+    .foot_img img {
+        
+        width: 23.46%;
+    }
+    
+    .foot_text p {
+    
+        font-size: 12px;
+    
+    }
+    /* Footer part end */
+    }
+    
+    
+    
+
+
+/* ----------------------------------------------------------------------------------------
+         ______________________________MEDIUM DEVICE______________________________
+------------------------------------------------------------------------------------------- */
+
+@media (min-width: 768px) and (max-width: 991px){
+
+/* Banner part start */
+.banner_text h2::before {
+	
+	right: 62px;
+}
+
+.banner_text h2::after {
+	
+	left: 40px;
+}
+
+.banner_text h1::before {
+	
+	left: 40px;
+}
+
+.banner_text h1::after {
+	
+	left: 40px;
+}
+
+.banner_text p::before {
+	
+	right: 60px;
+}
+
+.banner_text p::after {
+	
+	right: 60px;
+
+}
+
+.banner_text p {
+	
+    padding: 0px 70px;
+    padding-bottom: 30px;
+
+
+}
+.prv_arr {
+	width: 35px;
+	height: 35px;
+	font-size: 16px;
+	line-height: 35px;
+    border-radius: 20%;
+    background: #e23e38;
+    border-color: #e23e38;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+
+	
+}
+
+.prv_arr:hover{
+     background: transparent;
+     color: #fff;
+     transition: all linear .3s;
+     -webkit-transition: all linear .3s;
+     -moz-transition: all linear .3s;
+     -ms-transition: all linear .3s;
+     -o-transition: all linear .3s;
+}
+
+.nxt_arr {
+	width: 35px;
+	height: 35px;
+	font-size: 16px;
+	line-height: 35px;
+    border-radius: 20%;
+    background: #e23e38;
+    border-color: #e23e38;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.nxt_arr:hover{
+    background: transparent;
+    color: #fff;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+/* Banner part end */
+
+/* About part start*/
+.about_text p span {
+	
+	padding-bottom: 30px;
+}
+/* About part end */
+
+/* Testimonial part start */
+.test_slider .slick-dots {
+
+	left: 31%;
+	
+}
+/* Testimonial part end */
+/* Class part start */
+.class_text ul li {
+	width: 19.42%;
+    padding: 20px 0;
+}
+
+.class_text ul li p {
+
+	font-size: 11px;
+
+}
+/* Class part end */
+
+/* Footer part start */
+
+.foot_mid3 h4 {
+	
+	padding-top: 15px;
+}
+
+.foot_mid2 h4 {
+	
+	padding-top: 15px;
+}
+/* Footer part end */
+}
+
+
+/* ----------------------------------------------------------------------------------------
+         ______________________________SMALL DEVICE______________________________
+------------------------------------------------------------------------------------------- */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* Menu part start */
+.main_menu {
+     
+  background: #e23e38;
+  top: 0;
+  
+}
+
+.main_menu .navbar-brand {
+  width: 160px;
+  height: 50px;
+  padding-top: 0;
+ 
+}
+
+.main_menu .navbar-toggler:focus {
+
+  box-shadow: none ;
+
+}
+
+#navbarSupportedContent{
+text-align: center;
+background: #e23e38;
+padding-top: 5px;
+}
+
+
+.backtop {
+width: 30px;
+height: 30px;
+line-height: 30px;
+bottom: 15px;
+right: 20px;
+
+}
+
+/* Menu part end */
+
+
+/* Banner part start*/
+
+.banner_item {
+  
+  padding: 120px 0 80px;
+ 
+}
+
+.ban_col{
+text-align: center;
+}
+.banner_text h2::after,
+.banner_text h2::before,
+.banner_text h1::after,
+.banner_text h1::before,
+.banner_text p::after, 
+.banner_text p::before{
+  display: none;
+} 
+
+.banner_text h2 {
+  font-size: 25px;
+}
+
+.banner_text {
+
+padding-top: 30px;
+}
+
+
+.banner_text h1 {
+  font-size: 35px;
+  padding-top: 5px;
+}
+.prv_arr {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 0;
+  left: 9px;
+  margin-top: 40px;
+}
+
+.nxt_arr {
+
+width: 25px;
+width: 35px;
+height: 35px;
+line-height: 35px;
+border-radius: 0;
+right: 9px;
+margin-top: 40px;
+
+}
+
+
+.banner_text p {
+  
+  font-size: 12px;
+  padding: 0 25px;
+  margin-bottom: 25px;
+  
+}
+
+#banner_part .banner_text ul li {
+margin-left: 6px;
+}
+
+/* Banner part end */
+
+
+/* About part start */
+
+#about_part {
+
+padding: 54px 0 53px;
+}
+
+
+.about_text p {
+   padding-left: 0;
+  padding-bottom: 22px;
+  text-align: justify;
+}
+
+
+
+/* About part end */
+
+#team_part{
+
+padding-top: 45px;
+}
+
+.slick-slide .slick-prev .slick-arrow{
+  display: none;
+}
+
+.team_slider .slick-slide {
+
+margin-right: 0;
+}
+
+
+.team_slider .slick-slide {
+
+padding: 0 12px;
+}
+
+
+
+.section_heading h2 {
+
+padding-top: 0;
+}
+
+
+
+.team_text h4 {
+
+
+  font-size: 12px;
+  padding-top: 6px;
+  padding-bottom: 2px;
+}
+
+.team_text p {
+
+
+  padding-top: 4px;
+  margin-bottom: 8px;
+}
+
+
+.team_inner .team_img .overly {
+
+opacity: 1;
+transform: scale(.9);
+-webkit-transform: scale(.9);
+-moz-transform: scale(.9);
+-ms-transform: scale(.9);
+-o-transform: scale(.9);
+}
+
+
+.team_inner .team_text p{
+
+opacity: 1;
+  
+}
+
+
+.team_inner .team_text{
+
+border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+
+}
+
+
+.team_inner{
+
+transform: translateY(-42px);
+  -webkit-transform: translateY(-42px);
+  -moz-transform: translateY(-42px);
+  -ms-transform: translateY(-42px);
+  -o-transform: translateY(-42px);
+}
+
+
+
+/* Testimonial part start */
+.test_slider {
+
+padding: 0 12px;
+}
+
+
+/* Testimonial part end */
+
+
+/* price part start */
+#price_part {
+padding: 41px 0;
+}
+
+.price_inner h4 {
+font-size: 14px;
+margin-top: 3px;
+padding: 13px 0;
+
+}
+
+.price_inner h3 span {
+font-size: 30px;
+
+}
+
+.price_inner ul {
+
+padding: 13px 0;
+line-height: 22px;
+}
+.price_inner a {
+
+padding: 8px 0;
+font-size: 15px;
+}
+
+.col_img1{
+margin-bottom: 10px;
+}
+.col_img2{
+margin-bottom: 10px;
+}
+.col_img3{
+margin-bottom: 10px;
+}
+/* price part end */
+
+
+
+
+
+/* Counter part start */
+
+.count_text h2 {
+
+  font-size: 30px;
+}
+
+.count_text p {
+
+font-size: 14px;
+
+}
+/* Counter part end */
+
+/* Class part start */
+
+#class_part {
+
+padding: 45px 0;
+
+}
+
+
+
+.class_text ul li:nth-child(2),
+.class_text ul li:nth-child(4),
+.class_text ul li:nth-child(6),
+.class_text ul li:nth-child(8),
+.class_text ul li:nth-child(10){
+margin-right: 0 ;
+}
+
+.class_text ul li {
+width: 49.16%;
+}
+
+
+.class_text ul li:nth-child(5){
+margin-right: 5px ;
+}
+
+.class_text ul li {
+  padding: 25px 0;
+}
+
+.class_text ul li h6 {
+  font-size: 16px;
+}
+.class_text ul li p {
+
+font-size: 14px;
+
+}
+/* Class part end */
+
+
+
+
+/* Footer part start */
+.foot_mid1 h4 {
+
+padding-top: 20px;
+}
+
+.foot_text p span {
+padding-left: 21px;
+display: block;
+}
+
+.foot_mid2 h4 {
+padding-top: 20px;
+}
+
+.foot_img img {
+  width: 24.36%;
+}
+
+.foot_mid3 h4 {
+padding-top: 20px;
+}
+
+.foot_bottom p {
+
+font-size: 8px;
+
+
+}
+
+}
+
+/* ----------------------------------------------------------------------------------------
+        ______________________________EXTRA SMALL DEVICE______________________________
+------------------------------------------------------------------------------------------- */
+@media (max-width: 575.98px) {
+    /* Menu part start */
+.main_menu {
+       
+        background: #e23e38;
+        top: 0;
+        
+}
+
+.main_menu .navbar-brand {
+        width: 160px;
+        height: 50px;
+        padding-top: 0;
+       
+}
+
+.main_menu .navbar-toggler:focus {
+      
+        box-shadow: none ;
+    
+}
+
+  #navbarSupportedContent{
+    text-align: center;
+    background: #e23e38;
+    padding-top: 5px;
+}
+.backtop {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	bottom: 15px;
+	right: 20px;
+	
+}
+
+    /* Menu part end */
+
+
+    /* Banner part start*/
+
+.banner_item {
+        
+        padding: 120px 0 80px;
+       
+}
+
+.ban_col{
+    text-align: center;
+}
+
+
+.banner_text h2::after,
+.banner_text h2::before,
+.banner_text h1::after,
+.banner_text h1::before,
+.banner_text p::after, 
+.banner_text p::before{
+        display: none;
+} 
+    
+.banner_text h2 {
+       
+   font-size: 19px;
+       
+}
+
+.banner_text h1 {
+       
+    font-size: 32px;
+       
+}
+
+.prv_arr {
+
+
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+    line-height: 25px;
+    border-radius: 0%;
+    left: 1px;
+       
+}
+
+
+.nxt_arr {
+    
+ width: 25px;
+ height: 25px;
+ font-size: 15px;
+ line-height: 25px;
+ border-radius: 0%;
+ right: 1px;
+}
+
+
+.banner_text p {
+    
+    padding: 0px 24px;
+    padding-bottom: 10px;
+}
+
+
+
+#banner_part .banner_text ul li {
+	margin-left: 6px;
+}
+
+/* Banner part end */
+
+
+    /* About part start */
+
+#about_part {
+    
+    padding: 54px 0 53px;
+}
+
+
+.about_text p {
+    padding-left: 0;
+    padding-bottom: 22px;
+    text-align: justify;
+}
+
+
+   
+    /* About part end */
+
+#team_part{
+    
+    padding-top: 45px;
+}
+
+.team_slider.slick-prev .slick-arrow{
+    
+    display: none;
+}
+
+
+
+.team_slider .slick-slide {
+    
+    margin-right: 0;
+}
+
+
+.team_slider .slick-slide {
+    
+    padding: 0 12px;
+}
+
+
+
+.section_heading h2 {
+    
+    padding-top: 0;
+}
+
+
+
+.team_text h4 {
+    
+    
+        font-size: 12px;
+        padding-top: 6px;
+        padding-bottom: 2px;
+}
+
+.team_text p {
+    
+    
+        padding-top: 4px;
+        margin-bottom: 8px;
+}
+
+
+.team_inner .team_img .overly {
+    
+    opacity: 1;
+    transform: scale(.9);
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+}
+
+
+.team_inner .team_text p{
+
+opacity: 1;
+        
+}
+
+
+.team_inner .team_text{
+    
+    border-left: 1px solid #dddddd;
+        border-right: 1px solid #dddddd;
+        border-bottom: 1px solid #dddddd;
+    
+}
+
+
+.team_inner{
+    
+    transform: translateY(-42px);
+        -webkit-transform: translateY(-42px);
+        -moz-transform: translateY(-42px);
+        -ms-transform: translateY(-42px);
+        -o-transform: translateY(-42px);
+}
+
+
+
+ /* Testimonial part start */
+ .test_slider {
+	
+	padding: 0 12px;
+}
+
+
+ /* Testimonial part end */
+
+
+/* price part start */
+#price_part {
+	padding: 41px 0;
+}
+
+.price_inner h4 {
+	font-size: 14px;
+    margin-top: 3px;
+    padding: 13px 0;
+	
+}
+
+.price_inner h3 span {
+	font-size: 30px;
+
+}
+
+.price_inner ul {
+	
+	padding: 13px 0;
+	line-height: 22px;
+}
+.price_inner a {
+	
+	padding: 8px 0;
+	font-size: 15px;
+}
+
+.col_img1{
+    margin-bottom: 10px;
+}
+.col_img2{
+    margin-bottom: 10px;
+}
+.col_img3{
+    margin-bottom: 10px;
+}
+/* price part end */
+
+
+/* Counter part start */
+.count_text h2 {
+	
+	font-size: 20px;
+	
+}
+
+.count_text p {
+	
+	font-size: 12px;
+
+}
+/* Counter part end */
+
+/* Class part start */
+#class_part {
+	padding: 45px 0;
+}
+.class_menu li {
+    width: 33.33%;
+    height: 35px;
+    border-bottom: 1px solid #e23e38;
+	
+}
+.class_menu li a {
+	line-height: 35px;
+	font-size: 12px;
+	
+}
+
+.class_text ul li:nth-child(2),
+.class_text ul li:nth-child(4),
+.class_text ul li:nth-child(6),
+.class_text ul li:nth-child(8),
+.class_text ul li:nth-child(10){
+    margin-right: 0 ;
+}
+
+.class_text ul li {
+	width: 49.16%;
+}
+.class_text ul li:nth-child(5){
+    margin-right: 5px ;
+}
+
+.class_text ul li {
+	padding: 25px 0;
+}
+
+.class_text ul li h6 {
+
+	font-size: 12px;
+
+}
+.class_text ul li p {
+	
+	font-size: 12px;
+	
+}
+/* Class part end */
+/* Footer part start */
+.foot_mid1 h4 {
+
+	padding-top: 20px;
+}
+
+.foot_text p span {
+	padding-left: 21px;
+	display: block;
+}
+.foot_mid2 h4 {
+    padding-top: 20px;
+}
+.foot_img img {
+	
+	width: 23.89%;
+}
+
+.foot_mid3 h4 {
+    padding-top: 20px;
+}
+
+.foot_bottom p {
+
+	font-size: 8px;
+	
+}
+/* Footer part end */
+/* price part end */
+/* price part end */
+/* price part end */
+/* price part end */
+/* price part end */
+/* price part end */
+/* price part end */
+/* price part end */
+
+
+
+
+
+
+
+}
+
